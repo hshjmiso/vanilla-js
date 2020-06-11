@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>샘플 프로젝트</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <form class="text-form">
+            <!-- value -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+        <form class="radio-form">
+            <!-- checked -->
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <input type="submit" value="Submit">
+        </form>
+        <form class="checkbox-form">
+            <!-- multi -->
+            <!-- checked -->
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+            <input type="submit" value="Submit">
+        </form>
+        <input class="btn" type="button" value="Click Me!">
+        <form class="color-form">
+            <!-- value -->
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <input type="submit" value="Submit">
+        </form>
+        <form class="date-form">
+            <!-- value -->
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <input type="submit" value="Submit">
+        </form>
+        <form class="file-form">
+            <!-- value = path -->
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <input type="submit" value="Submit">
+        </form>
+        <script src="./form.js"></script>
+    </body>
+</html>
